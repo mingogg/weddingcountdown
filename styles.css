@@ -1,0 +1,37 @@
+/* Fondo negro y tipografía centrada */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Frase arriba */
+h1 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+/* Contador principal */
+#countdown {
+  font-size: 4rem;
+  letter-spacing: 2px;
+}
+
+/* Footer opcional */
+footer {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.8rem;
+  color: #666;
+}
